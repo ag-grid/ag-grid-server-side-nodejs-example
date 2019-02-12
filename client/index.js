@@ -5,6 +5,9 @@ import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-balham.css";
 
 const gridOptions = {
+
+    rowModelType: 'serverSide',
+
     columnDefs: [
         {field: 'athlete'},
         {field: 'country', rowGroup: true, hide: true},
@@ -17,9 +20,7 @@ const gridOptions = {
 
     defaultColDef: {
         sortable: true
-    },
-
-    rowModelType: 'serverSide',
+    }
 
     // debug: true,
     // cacheBlockSize: 20,
