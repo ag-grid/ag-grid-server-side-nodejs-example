@@ -15,10 +15,12 @@ const gridOptions = {
         {field: 'bronze', aggFunc: 'sum'},
     ],
 
+    defaultColDef: {
+        sortable: true
+    },
+
     rowModelType: 'serverSide',
 
-    enableSorting: true,
-    enableFilter: true,
     // debug: true,
     // cacheBlockSize: 20,
     // maxBlocksInCache: 3,
