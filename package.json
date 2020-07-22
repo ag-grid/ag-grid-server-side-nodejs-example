@@ -31,12 +31,11 @@
     "webpack-livereload-plugin": "^2.3.0"
   },
   "dependencies": {
-    "ag-grid-community": "^20.0.0",
-    "ag-grid-enterprise": "^20.0.0",
+    "ag-grid-community": "^23.2.0",
+    "ag-grid-enterprise": "^23.2.0",
     "express": "^4.17.1",
     "body-parser": "^1.19.0",
-    "mysql": "2.18.1",
-    "axios": "^0.19.2"
+    "mysql": "2.18.1"
   },
   "repository": {
     "type": "git",
