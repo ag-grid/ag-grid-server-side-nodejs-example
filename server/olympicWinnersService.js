@@ -122,7 +122,7 @@ class OlympicWinnersService {
         if (groupKeys.length > 0) {
             groupKeys.forEach(function (key, index) {
                 const colName = rowGroupCols[index].field;
-                whereParts.push(colName + ' = "' + key + '"')
+                whereParts.push(colName + ' = "' + key + '"');
             });
         }
 
